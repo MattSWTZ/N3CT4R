@@ -1,5 +1,5 @@
 
-![Logo](https://i.imgur.com/haFZIfX.jpg)
+![Logo](https://imgur.com/JWOhhKW.jpg)
 
 
 # 1NJECTOR
