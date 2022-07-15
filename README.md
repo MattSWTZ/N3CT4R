@@ -32,8 +32,11 @@ Simply execute the code using python (unless it exe converted) and follow the in
 ```bash
 python 1NJECTOR.py
 ```
-    
+
 ## Author
 
 - [@crashixx](https://github.com/crashixx)
+- 
+## Disclaimer 
+- Only for educationnal purposes
 
