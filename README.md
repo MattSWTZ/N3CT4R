@@ -21,12 +21,13 @@
 - Windows OS only
 - Python 3.x installed
 - No spaces in the source file name (underscore is allowed).
+- Module:  win32com, plyer, pystyle (unless it exe converted)
 
 
 
 ## How to use ?
 
-Simply execute the code using python (unless it is in exe) and follow the instructions
+Simply execute the code using python (unless it exe converted) and follow the instructions
 
 ```bash
 python 1NJECTOR.py
