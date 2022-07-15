@@ -34,7 +34,7 @@ python 1njector.py
 ```
 ## Disclaimer 
 - Only for educationnal purposes
-- I decline any responsibility in case of misuse of this code.
+- I decline any responsability in case of misuse of this code.
 
 ## Author
 
