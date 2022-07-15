@@ -1,9 +1,38 @@
-<h3 align="center">1NJECTOR by crashixx</h3>
 
-<h3 align="left">Using python </h3>
-<p align="left">
-</p>
+![Logo](https://anonfiles.com/b0wfY6xay9/Dark_night_river_forest_minimal_art_wallpaper_jpg)
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
-  
+
+# 1NJECTOR
+
+1NJECTOR is a very simple python code injector that allows you to convert py code to exe and create a shortcut in the start menu. Very useful to joke your friends :)
+
+
+## Features
+
+- Easy to use
+- Obfuscation system
+- Minimize AV detections
+- Shortcut in startup menu
+- Can be converted to exe
+- Error notifications
+
+## Requirement
+
+- Windows OS only
+- Python 3.x installed
+- No spaces in the source file name (underscore is allowed).
+
+
+
+## How to use ?
+
+Simply execute the code using python (unless it is in exe) and follow the instructions
+
+```bash
+python 1NJECTOR.py
+```
+    
+## Author
+
+- [@crashixx](https://github.com/crashixx)
+
