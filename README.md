@@ -30,7 +30,7 @@
 Simply execute the code using python (unless it exe converted) and follow the instructions
 
 ```bash
-python 1NJECTOR.py
+python 1njector.py
 ```
 ## Disclaimer 
 - Only for educationnal purposes
