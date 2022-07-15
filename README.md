@@ -16,7 +16,7 @@
 - Can be converted to exe
 - Error notifications
 
-## Requirement
+## Requirements
 
 - Windows OS only
 - Python 3.x installed
