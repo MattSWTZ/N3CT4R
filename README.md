@@ -32,12 +32,13 @@ Simply execute the code using python (unless it exe converted) and follow the in
 ```bash
 python 1NJECTOR.py
 ```
+## Disclaimer 
+- Only for educationnal purposes
+- I decline any responsibility in case of misuse of this code.
 
 ## Author
 
 - [@crashixx](https://github.com/crashixx)
 
-## Disclaimer 
-- Only for educationnal purposes
-- I decline any responsibility in case of misuse of this code.
+
 
