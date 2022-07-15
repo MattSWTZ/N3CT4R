@@ -36,7 +36,8 @@ python 1NJECTOR.py
 ## Author
 
 - [@crashixx](https://github.com/crashixx)
-- 
+
 ## Disclaimer 
 - Only for educationnal purposes
+- I decline any responsibility in case of misuse of this code.
 
