@@ -1,3 +1,5 @@
+#Using python 3.8
+#by CR4SH3D
 
 #alls os imports
 from os import system as sys
