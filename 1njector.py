@@ -129,7 +129,7 @@ def main():
  ██║██║╚██╗██║██   ██║██╔══╝  ██║        ██║   ████╔╝██║██╔══██╗
  ██║██║ ╚████║╚█████╔╝███████╗╚██████╗   ██║   ╚██████╔╝██║  ██║
  ╚═╝╚═╝  ╚═══╝ ╚════╝ ╚══════╝ ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝"""
-
+    clear()
     Anime.Fade(Center.Center(r), Colors.red_to_black, Colorate.Vertical, enter=True)
     cx_freeze_checker(r)
     Write.Print(r, Colors.red, interval=0)
