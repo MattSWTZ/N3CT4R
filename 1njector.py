@@ -128,9 +128,9 @@ def main():
  ██║██║╚██╗██║██   ██║██╔══╝  ██║        ██║   ████╔╝██║██╔══██╗
  ██║██║ ╚████║╚█████╔╝███████╗╚██████╗   ██║   ╚██████╔╝██║  ██║
  ╚═╝╚═╝  ╚═══╝ ╚════╝ ╚══════╝ ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝"""
-    clear()
     Anime.Fade(Center.Center(r), Colors.red_to_black, Colorate.Vertical, enter=True)
     cx_freeze_checker(r)
+    clear()
     Write.Print(r, Colors.red, interval=0)
     Write.Print("\nby CR4SH3D © | Enjoy ;)", Colors.red, interval=0.0025)
     #file future name set
