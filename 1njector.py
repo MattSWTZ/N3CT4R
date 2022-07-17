@@ -1,7 +1,6 @@
 #alls os imports
 from os import system as sys
 from os import environ as env
-from os import environ as env
 from os import rename
 import os
 #others imports
