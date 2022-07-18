@@ -30,10 +30,20 @@ N3CT4R is a semi advanced python code injector that allows you to convert py cod
 ## How to use ?
 
 Simply execute the code using python wait the env setup and follow the instructions
-
+- Run script :
 ```bash
 python N3CT4R.py
 ```
+- Use config.json :
+```json
+{
+    "rat_name": "name",
+    "rat_path": "\\ressources\\your_pyton_file.py",
+    "logo_path": "\\ressources\\you_ico.ico"
+}
+}
+```
+- Note: the source code and the logo must be located in the resources folder
 ## Coming soon features:
 - Can be converted to exe
 - More options
