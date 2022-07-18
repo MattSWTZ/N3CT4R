@@ -41,7 +41,6 @@ python N3CT4R.py
     "rat_path": "\\ressources\\your_pyton_file.py",
     "logo_path": "\\ressources\\you_ico.ico"
 }
-}
 ```
 - Note: the source code and the logo must be located in the resources folder
 ## Coming soon features:
