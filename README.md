@@ -1,10 +1,9 @@
+![Logo](https://imgur.com/0HRdDUT.jpg)
 
-![Logo](https://imgur.com/JWOhhKW.jpg)
 
+# N3CT4R
 
-# 1NJECTOR
-
-1NJECTOR is a very simple python code injector that allows you to convert py code to exe and create a shortcut in the start menu. Very useful to joke your friends :)
+N3CT4R is a semi advanced python code injector that allows you to convert py code to exe and create a shortcut in the start menu. Very useful to joke your friends :)
 
 
 ## Features
@@ -13,25 +12,32 @@
 - Obfuscation system
 - Minimize AV detections
 - Shortcut in startup menu
-- Can be converted to exe
+- Use virtual env for cx_freeze
+- Quick use
+- .json config file
 - Error notifications
+
 
 ## Requirements
 
 - Windows OS only
 - Python 3.x installed
 - No spaces in the source file name (underscore is allowed).
-- Module:  win32com, plyer, pystyle (unless it exe converted)
+- Module: win32com, plyer, pystyle, venv, shutil
 
 
 
 ## How to use ?
 
-Simply execute the code using python (unless it exe converted) and follow the instructions
+Simply execute the code using python wait the env setup and follow the instructions
 
 ```bash
-python 1njector.py
+python N3CT4R.py
 ```
+## Coming soon features:
+- Can be converted to exe
+- More options
+
 ## Disclaimer 
 - Only for educationnal purposes
 - I decline any responsability in case of misuse of this code.
@@ -39,6 +45,4 @@ python 1njector.py
 ## Author
 
 - [@crashixx](https://github.com/crashixx)
-
-
-
+- [@shlemm](https://ielle.io/nadagithub)
