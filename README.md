@@ -14,6 +14,7 @@ N3CT4R is a semi advanced python code injector that allows you to convert py cod
 - Shortcut in startup menu
 - Use virtual env for cx_freeze
 - Quick use
+- Can be converted to exe
 - .json config file
 - Error notifications
 
