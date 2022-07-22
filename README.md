@@ -22,7 +22,7 @@ N3CT4R is a semi advanced python code injector that allows you to convert py cod
 ## Requirements
 
 - Windows OS only
-- Python 3.x installed
+- Python 3.x must be installed on the target machine
 - No spaces in the source file name (underscore is allowed).
 - Module: win32com, plyer, pystyle, venv, shutil
 
@@ -45,7 +45,6 @@ python N3CT4R.py
 ```
 - Note: the source code and the logo must be located in the resources folder
 ## Coming soon features:
-- Can be converted to exe
 - More options
 
 ## Disclaimer 
